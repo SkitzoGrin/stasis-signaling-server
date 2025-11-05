@@ -18,33 +18,3 @@
     "nodemon": "^3.0.1"
   }
 }
-```
-
-### Save the File:
-3. **File** → **Save As**
-4. **File name:** Type exactly: `package.json` (with the extension!)
-5. **Save as type:** Select **"JSON file (*.json)"** from dropdown
-   - If you don't see JSON, select **"All Files (*.*)"** and make sure filename is `package.json`
-6. **Save location:** Same `stasis-server` folder
-7. **Click Save**
-
----
-
-## **Step 3: Verify Files Are Correct**
-
-### In Windows Explorer:
-1. Open your `stasis-server` folder
-2. **Make sure Windows is showing file extensions:**
-   - Click **View** tab
-   - Check **"File name extensions"** box
-3. You should see:
-```
-   server.js      (Type: JS File)
-   package.json   (Type: JSON File)
-```
-
-### NOT:
-```
-server.js.txt
-server.txt
-package.json.txt
