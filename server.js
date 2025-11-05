@@ -1,6 +1,3 @@
-// Stasis Signaling Server - Facilitates pairing between phone and PC
-// Deploy to Render.com, Railway.app, or Fly.io for free
-
 const express = require('express');
 const cors = require('cors');
 const app = express();
@@ -154,4 +151,5 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Stasis Signaling Server running on port ${PORT}`);
     console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
+
 });
